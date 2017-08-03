@@ -14,7 +14,7 @@ namespace LambdaExpresion
             };
 
             //Expresion
-            numbers.Where(n => n > 1);
+            numbers.Where(n => n > 1).ToList();
         }
     }
 }
